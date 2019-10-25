@@ -1,0 +1,8 @@
+# NPM / Yarn
+node_modules
+dist
+lib
+
+
+# General Files
+.cache

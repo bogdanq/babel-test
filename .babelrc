@@ -1,0 +1,25 @@
+{
+    "presets": [
+      ["@babel/env", { "modules": false, "loose": true }],
+      "@babel/react"
+    ],
+    "env": {
+      "esm": {
+        "plugins": [
+          "@babel/transform-runtime"
+        ],
+      },
+      "cjs": {
+        "plugins": [
+          "@babel/transform-runtime",
+          "@babel/transform-modules-commonjs"
+        ]
+      },
+      "test": {
+        "plugins": [
+          "@babel/transform-modules-commonjs"
+        ]
+      }
+    }
+  }
+  
